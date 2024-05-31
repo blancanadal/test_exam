@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<TestRun>
+	<FailedTests/>
+	<SuccessfulTests>
+		<Test id="1">
+			<Name>test/test_fsm_legacy.c::test_fsm_new_nullWhenNullTransition</Name>
+		</Test>
+		<Test id="2">
+			<Name>test/test_fsm_legacy.c::test_fsm_init_falseWhenNullFsm</Name>
+		</Test>
+		<Test id="3">
+			<Name>test/test_fsm_legacy.c::test_fsm_init_falseWhenNullTransitions</Name>
+		</Test>
+		<Test id="4">
+			<Name>test/test_fsm_legacy.c::test_fsm_nullWhenFirstOrigStateIsMinusOne </Name>
+		</Test>
+		<Test id="5">
+			<Name>test/test_fsm_legacy.c::test_fsm_nullWhenFirstDstStateIsMinusOne </Name>
+		</Test>
+		<Test id="6">
+			<Name>test/test_fsm_legacy.c::test_fsm_new_nonNullWhenOneValidTransitionCondition(NULL)</Name>
+		</Test>
+		<Test id="7">
+			<Name>test/test_fsm_legacy.c::test_fsm_new_nonNullWhenOneValidTransitionCondition(do_nothing)</Name>
+		</Test>
+		<Test id="8">
+			<Name>test/test_fsm_legacy.c::test_fsm_new_fsmGetStateReturnsOrigStateOfFirstTransitionAfterInit</Name>
+		</Test>
+		<Test id="9">
+			<Name>test/test_fsm_legacy.c::test_fsm_fire_isTrueReturnsFalseMeansDoNothingIsNotCalledAndStateKeepsTheSame</Name>
+		</Test>
+		<Test id="10">
+			<Name>test/test_fsm_legacy.c::test_fsm_fire_checkFunctionCalledWithFsmPointerFromFsmFire</Name>
+		</Test>
+		<Test id="11">
+			<Name>test/test_fsm_legacy.c::test_fsm_fire_checkFunctionIsCalledAndResultIsImportantForTransition(false, 0)</Name>
+		</Test>
+		<Test id="12">
+			<Name>test/test_fsm_legacy.c::test_fsm_fire_checkFunctionIsCalledAndResultIsImportantForTransition(true, 1)</Name>
+		</Test>
+		<Test id="13">
+			<Name>test/test_fsm_legacy.c::test_fsm_new_nullWhenFsmMallocReturnsNull</Name>
+		</Test>
+		<Test id="14">
+			<Name>test/test_fsm_legacy.c::test_fsm_destroy_callsFsmFree</Name>
+		</Test>
+		<Test id="15">
+			<Name>test/test_fsm_legacy.c::test_fsm_fire_callsFirstIsTrueFromState0AndThenIsTrue2FromState1</Name>
+		</Test>
+		<Test id="16">
+			<Name>test/test_fsm_legacy.c::test_fsm_new_calledTwiceWithSameValidDataCreatesDifferentInstancePointer</Name>
+		</Test>
+		<Test id="17">
+			<Name>test/test_fsm_legacy.c::test_fsm_init_returniIntNumValidTransitionsEqualFSM_MAX_TRANSITIONS</Name>
+		</Test>
+		<Test id="18">
+			<Name>test/test_fsm_legacy.c::test_fsm_init_returniIntNumValidTransitionsMoreThanFSM_MAX_TRANSITIONS</Name>
+		</Test>
+		<Test id="19">
+			<Name>test/test_fsm_legacy.c::test_fsm_fire_NullTransitionIsTrue</Name>
+		</Test>
+		<Test id="20">
+			<Name>test/test_fsm_legacy.c::test_fsm_fire_ReturnIntDependingOnTransitionType</Name>
+		</Test>
+		<Test id="21">
+			<Name>test/test_fsm_legacy.c::test_fsm_destroy_DoesNotCallFsmFreeIfNull</Name>
+		</Test>
+	</SuccessfulTests>
+	<IgnoredTests/>
+	<Statistics>
+		<Tests>21</Tests>
+		<Ignores>0</Ignores>
+		<FailuresTotal>0</FailuresTotal>
+		<Errors>0</Errors>
+		<Failures>0</Failures>
+	</Statistics>
+</TestRun>
