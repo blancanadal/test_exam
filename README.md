@@ -1,1 +1,1 @@
-[![Ceedling Testing](https://github.com/blancanadal/test_exam/actions/workflows/ceedling-tests.yaml/badge.svg)](https://github.com/blancanadal/test_exam/actions/workflows/ceedling-tests.yaml)
+Branch for resolving Exam 1 -- MQTT
